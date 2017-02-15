@@ -1,0 +1,15 @@
+{
+    "name": "icaro/twitter-sentiment-analytics",
+    "description": "Tool to measure the sentiment and mood around a #hashtag on twitter",
+    "type": "library",
+    "require": {
+        "jwhennessey/phpinsight": "v2.0.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "icaro",
+            "email": "icaro.isf@gmail.com"
+        }
+    ]
+}
