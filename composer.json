@@ -11,5 +11,10 @@
             "name": "icaro",
             "email": "icaro.isf@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Icaro\\TwitterSentimentAnalytics\\": "src/"
+        }
+    }
 }
