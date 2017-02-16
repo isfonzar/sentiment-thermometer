@@ -2,8 +2,8 @@
 
     require(__DIR__ . '/../vendor/autoload.php');
 
-    use Icaro\TwitterSentimentAnalytics\TwitterSentimentAnalytics;
+    use iiiicaro\BuzzTracker\BuzzTracker;
 
-    $twitterSentimentAnalytics = new TwitterSentimentAnalytics();
+    $twitterSentimentAnalytics = new BuzzTracker();
 
     $twitterSentimentAnalytics->get('');

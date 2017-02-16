@@ -1,10 +1,10 @@
 <?php
 
-    namespace Icaro\TwitterSentimentAnalytics;
+    namespace iiiicaro\BuzzTracker;
 
     use PHPInsight\Sentiment;
 
-    class TwitterSentimentAnalytics
+    class BuzzTracker
     {
         private $sentimentAnalytics;
 

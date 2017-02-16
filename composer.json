@@ -1,6 +1,6 @@
 {
-    "name": "icaro/twitter-sentiment-analytics",
-    "description": "Tool to measure the sentiment and mood around a #hashtag on twitter",
+    "name": "icaro/BuzzTracker",
+    "description": "Tool to measure the sentiment, buzz and mood around a keyword ",
     "type": "library",
     "require": {
         "jwhennessey/phpinsight": "v2.0.9"
@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Icaro\\TwitterSentimentAnalytics\\": "src/"
+            "iiiicaro\\BuzzTracker\\": "src/"
         }
     }
 }
