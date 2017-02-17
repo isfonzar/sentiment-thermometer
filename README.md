@@ -9,6 +9,8 @@
 ## About Sentiment Thermometer
 Sentiment Thermometer is a library and tool to measure the sentiment around a word, name, sentence or hashtag using social networks.
 
+![](http://i.imgur.com/UZyHxN1.gif)
+
 ## Features
 
 - Fully integrated with twitter feed
