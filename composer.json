@@ -1,9 +1,10 @@
 {
-    "name": "icaro/BuzzTracker",
-    "description": "Tool to measure the sentiment, buzz and mood around a keyword ",
+    "name": "iiiicaro/SentimentThermometer",
+    "description": "Measure the sentiment around a word, name, sentence or hashtag using social networks.",
     "type": "library",
     "require": {
-        "jwhennessey/phpinsight": "v2.0.9"
+        "jwhennessey/phpinsight": "v2.0.9",
+        "abraham/twitteroauth": "v0.7.2"
     },
     "license": "MIT",
     "authors": [
@@ -14,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "iiiicaro\\BuzzTracker\\": "src/"
+            "iiiicaro\\SentimentThermometer\\": "src/"
         }
     }
 }

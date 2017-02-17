@@ -2,8 +2,19 @@
 
     require(__DIR__ . '/../vendor/autoload.php');
 
-    use iiiicaro\BuzzTracker\BuzzTracker;
+    use iiiicaro\SentimentThermometer\SentimentThermometer;
 
-    $twitterSentimentAnalytics = new BuzzTracker();
+    $config = [
+        'twitter' => [
+            'consumer_key' => 'CONSUMER_KEY_HERE',
+            'consumer_secret' => 'CONSUMER_SECRET_HERE',
+            'type' => 'recent',
+            'count' => '100'
+        ]
+    ];
 
-    $twitterSentimentAnalytics->get('');
+    $sentimentThermometer = new SentimentThermometer($config);
+
+    $thermomether = $sentimentThermometer->get('Donald Trump');
+
+    print_r($thermomether);
