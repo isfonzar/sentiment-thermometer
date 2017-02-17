@@ -1,5 +1,5 @@
 {
-    "name": "iiiicaro/SentimentThermometer",
+    "name": "iiiicaro/sentiment-thermometer",
     "description": "Measure the sentiment around a word, name, sentence or hashtag using social networks.",
     "type": "library",
     "require": {
