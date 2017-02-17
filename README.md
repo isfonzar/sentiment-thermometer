@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.rawgit.com/iiiicaro/SentimentThermometer/30d2ae28/logo.png"></p>
+<p align="center"><img src="https://cdn.rawgit.com/iiiicaro/sentiment-thermometer/30e4f410/logo.png"></p>
 
 <p align="center">
 <a href="https://packagist.org/packages/iiiicaro/sentiment-thermometer"><img src="https://img.shields.io/badge/Language-PHP-brightgreen.svg" alt="Language"></a>
